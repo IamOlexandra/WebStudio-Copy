@@ -1,0 +1,70 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients-title {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+.clients-first {
+    background-image: url(../img/logo1.svg);
+}
+.clients-first:hover,
+.clients-first:focus {
+    background-image: url(../img/logo1-hover.svg);
+}
+.clients-second {
+    background-image: url(../img/logo2.svg);
+}
+.clients-second:hover,
+.clients-second:focus {
+    background-image: url(../img/logo2-hover.svg);
+}
+.clients-third {
+    background-image: url(../img/logo3.svg);
+}
+.clients-third:hover,
+.clients-third:focus {
+    background-image: url(../img/logo3-hover.svg);
+}
+.clients-fourth {
+    background-image: url(../img/logo4.svg);
+}
+.clients-fourth:hover,
+.clients-fourth:focus {
+    background-image: url(../img/logo4-hover.svg);
+}
+.clients-fifth {
+    background-image: url(../img/logo5.svg);
+}
+.clients-fifth:hover,
+.clients-fifth:focus {
+    background-image: url(../img/logo5-hover.svg);
+}
+.clients-sixth {
+    background-image: url(../img/logo6.svg);
+}
+.clients-sixth:hover,
+.clients-sixth:focus {
+    background-image: url(../img/logo6-hover.svg);
+}
+.clients-client {
+    width: 170px;
+    height: 92px;
+    display: block;
+    border: solid 1px var(--logos);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients-client:hover,
+.clients-client:focus {
+    border: solid 1px var(--axent);
+}
