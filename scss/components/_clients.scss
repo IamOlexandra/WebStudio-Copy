@@ -57,7 +57,7 @@
     width: 170px;
     height: 92px;
     display: block;
-    border: solid 1px var(--logos);
+    border: solid 1px $logos;
     border-radius: 3px;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,5 +66,5 @@
 }
 .clients-client:hover,
 .clients-client:focus {
-    border: solid 1px var(--axent);
+    border: solid 1px $axent;
 }

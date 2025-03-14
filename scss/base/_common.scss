@@ -1,5 +1,5 @@
 a {
-    color: var(--firstlogo);
+    color: $firstlogo;
     text-decoration: none;
 }
 ul {
@@ -15,7 +15,7 @@ button {
     font-family: "Roboto", sans-serif;
 }
 .main {
-    border-top: solid 1px var(--heder-shadow);
+    border-top: solid 1px $heder-shadow;
 }
 .container {
     width: 1200px;
