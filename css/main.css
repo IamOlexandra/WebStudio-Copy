@@ -1,32 +1,10 @@
-:root {
-  --axent: #2196f3;
-  --dark-axent: rgba(24, 140, 232, 1);
-  --main: #2f303a;
-  --section: #f5f4fa;
-  --background: #ffffff;
-  --title: #212121;
-  --text: #757575;
-  --firstlogo: #000000;
-  --maintext: #ffffff;
-  --contacts: rgba(255, 255, 255, 0.6);
-  --border: #eeeeee;
-  --heder-shadow: #ececec;
-  --logos: rgba(175, 177, 184, 1);
-  --buttons: rgba(255, 255, 255, 0.1);
-  --text-backround: rgba(47, 48, 58, 0.8);
-  --modal: rgba(0, 0, 0, 0.1);
-  --modal-border: rgba(33, 33, 33, 0.2);
-  --footer-border: rgba(255, 255, 255, 0.3);
-  --panel: rgba(33, 150, 243, 0.9);
-}
-
 h1, h2, h3, p, ul, li, input, button, img, a, body {
   margin: 0;
   padding: 0;
 }
 
 a {
-  color: var(--firstlogo);
+  color: black;
   text-decoration: none;
 }
 
@@ -46,7 +24,7 @@ button {
 }
 
 .main {
-  border-top: solid 1px var(--heder-shadow);
+  border-top: solid 1px #ececec;
 }
 
 .container {
@@ -71,11 +49,11 @@ button {
 }
 
 .logo-axent {
-  color: var(--axent);
+  color: #2196f3;
 }
 
 .header-now {
-  color: var(--axent);
+  color: #2196f3;
 }
 
 .header-item {
@@ -104,7 +82,7 @@ button {
 .header-link:focus,
 .header-adress-link:hover,
 .header-adress-link:focus {
-  color: var(--axent);
+  color: #2196f3;
 }
 
 .header-link::after,
@@ -128,7 +106,7 @@ button {
 .header-link:focus::after,
 .header-adress-link:hover::after,
 .header-adress-link:focus::after {
-  background-color: var(--axent);
+  background-color: #2196f3;
 }
 
 .header-link {
@@ -141,7 +119,7 @@ button {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--axent);
+  background-color: #2196f3;
   margin-top: 30px;
   position: absolute;
   border-radius: 2px;
@@ -149,7 +127,7 @@ button {
 
 .header-logo:hover,
 .header-logo:focus {
-  color: var(--axent);
+  color: #2196f3;
 }
 
 .header-pages {
@@ -161,7 +139,7 @@ button {
 }
 
 .header-adress-link {
-  color: var(--text);
+  color: #757575;
   align-items: center;
   position: relative;
 }
@@ -198,7 +176,7 @@ button {
 }
 
 .footer {
-  background-color: var(--main);
+  background-color: #2f303a;
   padding: 60px 0;
 }
 
@@ -210,7 +188,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  color: var(--background);
+  color: #ffffff;
   display: block;
   margin-bottom: 20px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -221,18 +199,18 @@ button {
 }
 
 .footer-logo:hover {
-  color: var(--axent);
+  color: #2196f3;
 }
 
 .footer-fact {
-  color: var(--contacts);
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-fact:hover,
 .footer-fact:focus {
-  color: var(--axent);
+  color: #2196f3;
 }
 
 .footer-item {
@@ -244,7 +222,7 @@ button {
 }
 
 .footer-location {
-  color: var(--background);
+  color: #ffffff;
 }
 
 .footer-join {
@@ -255,7 +233,7 @@ button {
 .footer-title {
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--background);
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -272,7 +250,7 @@ button {
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--buttons);
+  background-color: rgba(255, 255, 255, 0.1019607843);
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -294,30 +272,30 @@ button {
 
 .footer-link:hover,
 .footer-link:focus {
-  background-color: var(--axent);
+  background-color: #2196f3;
 }
 
 .footer-input {
   background-color: transparent;
-  border: 1px solid var(--footer-border);
+  border: 1px solid rgba(255, 255, 255, 0.3019607843);
   padding: 15px 16px;
   width: 358px;
   font-size: 16px;
   border-radius: 4px;
   margin-right: 12px;
-  color: var(--background);
+  color: #ffffff;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-input:focus {
   outline: none;
-  border-color: var(--axent);
+  border-color: #2196f3;
 }
 
 .footer-button {
-  background-color: var(--axent);
+  background-color: #2196f3;
   border: none;
-  color: var(--background);
+  color: #ffffff;
   padding: 15px 62px 15px 28px;
   border-radius: 4px;
   font-weight: 700;
@@ -331,17 +309,17 @@ button {
 
 .footer-button:hover,
 .footer-button:focus {
-  background-color: var(--dark-axent);
+  background-color: #188ce8;
 }
 
 .mainbanner {
   padding: 200px 0;
   background-image: url("../img/banner.png");
-  background-color: var(--main);
+  background-color: #2f303a;
 }
 
 .mainbanner-title {
-  color: var(--maintext);
+  color: #ffffff;
   font-weight: 900;
   letter-spacing: 0.06em;
   font-size: 44px;
@@ -353,8 +331,8 @@ button {
 }
 
 .mainbanner-button {
-  background-color: var(--axent);
-  color: var(--maintext);
+  background-color: #2196f3;
+  color: #ffffff;
   border: transparent;
   border-radius: 4px;
   font-weight: 700;
@@ -371,7 +349,7 @@ button {
 
 .mainbanner-button:hover,
 .mainbanner-button:focus {
-  background-color: var(--dark-axent);
+  background-color: #188ce8;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -382,7 +360,7 @@ button {
   width: 100%;
   height: 100%;
   opacity: 1;
-  background-color: var(--modal);
+  background-color: rgba(0, 0, 0, 0.1019607843);
   z-index: 1;
 }
 
@@ -416,7 +394,7 @@ button {
   width: 30px;
   height: 30px;
   background-color: transparent;
-  border: 1px solid var(--modal);
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
   border-radius: 50%;
   background-image: url(../img/cross.svg);
   background-position: center;
@@ -441,12 +419,12 @@ button {
   font-size: 12px;
   font-weight: 400;
   margin-bottom: 4px;
-  color: var(--text);
+  color: #757575;
 }
 
 .modal-input {
   width: 448px;
-  border: 1px solid var(--modal-border);
+  border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 12px 16px 12px 42px;
   font-size: 14px;
   border-radius: 4px;
@@ -457,7 +435,7 @@ button {
 
 .modal-input:focus-visible {
   outline: none;
-  border-color: var(--axent);
+  border-color: #2196f3;
 }
 
 #modal-comment {
@@ -468,7 +446,7 @@ button {
 }
 
 #modal-comment::placeholder {
-  color: var(--modal-border);
+  color: rgba(33, 33, 33, 0.2);
 }
 
 #modal-name {
@@ -502,7 +480,7 @@ button {
 }
 
 .modal-link {
-  color: var(--axent);
+  color: #2196f3;
   text-decoration: underline;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -524,9 +502,9 @@ button {
 
 .modal-submit {
   display: block;
-  background-color: var(--axent);
+  background-color: #2196f3;
   border: none;
-  color: var(--background);
+  color: #ffffff;
   padding: 10px 52px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -540,7 +518,7 @@ button {
 
 .modal-submit:hover,
 .modal-submit:focus {
-  background-color: var(--dark-axent);
+  background-color: #188ce8;
 }
 
 .features {
@@ -566,7 +544,7 @@ button {
   content: "";
   width: 270px;
   height: 120px;
-  background-color: var(--section);
+  background-color: #f5f4fa;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70px;
@@ -592,7 +570,7 @@ button {
 
 .features-text {
   line-height: 1.71;
-  color: var(--text);
+  color: #757575;
   font-size: 14px;
 }
 
@@ -627,16 +605,16 @@ button {
   top: 316px;
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--background);
+  color: #ffffff;
   width: 370px;
   text-align: center;
-  background-color: var(--text-backround);
+  background-color: rgba(47, 48, 58, 0.8);
   padding: 27px 0;
 }
 
 .team {
   padding: 94px 0;
-  background-color: var(--section);
+  background-color: #f5f4fa;
 }
 .team__title {
   font-size: 36px;
@@ -649,7 +627,7 @@ button {
 }
 .team__item {
   width: 270px;
-  background-color: var(--maintext);
+  background-color: #ffffff;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -664,7 +642,7 @@ button {
   text-align: center;
   margin-bottom: 16px;
   font-size: 14px;
-  color: var(--text);
+  color: #757575;
 }
 .team__socialnetworks {
   display: flex;
@@ -685,7 +663,7 @@ button {
   transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team__link:hover, .team__link:focus {
-  background-color: var(--axent);
+  background-color: #2196f3;
 }
 .team__instagram {
   background-image: url(../img/team-instagram.svg);
@@ -786,7 +764,7 @@ button {
   width: 170px;
   height: 92px;
   display: block;
-  border: solid 1px var(--logos);
+  border: solid 1px #afb1b8;
   border-radius: 3px;
   background-repeat: no-repeat;
   background-position: center;
@@ -796,7 +774,7 @@ button {
 
 .clients-client:hover,
 .clients-client:focus {
-  border: solid 1px var(--axent);
+  border: solid 1px #2196f3;
 }
 
 .portfolio {
@@ -809,7 +787,7 @@ button {
 
 .portfolio-button {
   font-weight: 500;
-  background-color: var(--section);
+  background-color: #f5f4fa;
   font-size: 16px;
   border-radius: 4px;
   border: none;
@@ -836,14 +814,14 @@ button {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: var(--axent);
-  color: var(--maintext);
+  background-color: #2196f3;
+  color: #ffffff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-now {
-  background-color: var(--axent);
-  color: var(--maintext);
+  background-color: #2196f3;
+  color: #ffffff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -854,7 +832,7 @@ button {
 }
 
 .portfolio-item {
-  border: var(--border) solid 1px;
+  border: #eeeeee solid 1px;
   width: 370px;
   height: 404px;
   overflow: hidden;
@@ -886,7 +864,7 @@ button {
 .portfolio-category {
   font-weight: 400;
   font-size: 16px;
-  color: var(--text);
+  color: #757575;
   line-height: 1.87;
   margin: 0 0 20px 24px;
 }
@@ -901,13 +879,14 @@ button {
   position: absolute;
   width: 370px;
   height: 294px;
-  background-color: var(--panel);
-  color: var(--background);
+  box-sizing: border-box;
+  background-color: rgba(33, 150, 243, 0.9019607843);
+  color: #ffffff;
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 3%;
-  bottom: 0;
+  top: 0;
   transform: translateY(101%);
   transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
