@@ -39,9 +39,8 @@
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .portfolio-list {
-    display: flex;
+    @extend %flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .portfolio-item {
     border: $border solid 1px;
@@ -70,8 +69,7 @@
 }
 .portfolio-category {
     font-weight: 400;
-    font-size: 16px;
-    color: $text;
+    @include text(16px);
     line-height: 1.87;
     margin: 0 0 20px 24px;
 }

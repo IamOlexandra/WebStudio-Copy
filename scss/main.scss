@@ -1,4 +1,6 @@
 @import "utils/variables";
+@import "utils/placeholders";
+@import "utils/mixins";
 @import "base/reset";
 @import "base/common";
 @import "components/header";
@@ -10,17 +12,3 @@
 @import "components/team";
 @import "components/clients";
 @import "components/portfolio";
-
-
-
-
-
-
-
-
-
-
-
-
-
-

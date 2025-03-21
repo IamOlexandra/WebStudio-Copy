@@ -1,3 +1,21 @@
+.portfolio-list, .clients-list, .team__socialnetworks, .team__list, .activites-list, .header-list, .header-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clients-title, .team__title, .activites-title {
+  font-size: 36px;
+  text-align: center;
+}
+
 h1, h2, h3, p, ul, li, input, button, img, a, body {
   margin: 0;
   padding: 0;
@@ -67,15 +85,11 @@ button {
 
 .header-navigation {
   width: 933px;
-  display: flex;
-  justify-content: space-between;
   font-size: 14px;
 }
 
 .header-list {
-  display: flex;
   padding-left: 0;
-  justify-content: space-between;
 }
 
 .header-link:hover,
@@ -319,13 +333,13 @@ button {
 }
 
 .mainbanner-title {
+  display: flex;
+  justify-self: center;
   color: #ffffff;
   font-weight: 900;
   letter-spacing: 0.06em;
   font-size: 44px;
   width: 696px;
-  display: flex;
-  justify-self: center;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -590,9 +604,7 @@ button {
 
 .activites-list {
   padding-left: 0;
-  display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .activites-title {
@@ -617,13 +629,7 @@ button {
   background-color: #f5f4fa;
 }
 .team__title {
-  font-size: 36px;
   margin-bottom: 50px;
-  text-align: center;
-}
-.team__list {
-  display: flex;
-  justify-content: space-between;
 }
 .team__item {
   width: 270px;
@@ -641,24 +647,17 @@ button {
 .team__profession {
   text-align: center;
   margin-bottom: 16px;
-  font-size: 14px;
   color: #757575;
+  font-size: 14px;
 }
 .team__socialnetworks {
-  display: flex;
   width: 206px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  justify-content: space-between;
 }
 .team__link {
   display: block;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -696,14 +695,7 @@ button {
 }
 
 .clients-title {
-  font-size: 36px;
-  text-align: center;
   padding-bottom: 50px;
-}
-
-.clients-list {
-  display: flex;
-  justify-content: space-between;
 }
 
 .clients-first {
@@ -826,9 +818,7 @@ button {
 }
 
 .portfolio-list {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .portfolio-item {
@@ -863,8 +853,8 @@ button {
 
 .portfolio-category {
   font-weight: 400;
-  font-size: 16px;
   color: #757575;
+  font-size: 16px;
   line-height: 1.87;
   margin: 0 0 20px 24px;
 }

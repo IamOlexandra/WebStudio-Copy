@@ -3,13 +3,11 @@
     padding-bottom: 94px;
 }
 .clients-title {
-    font-size: 36px;
-    text-align: center;
+    @extend %title;
     padding-bottom: 50px;
 }
 .clients-list {
-    display: flex;
-    justify-content: space-between;
+    @extend %flex;
 }
 .clients-first {
     background-image: url(../img/logo1.svg);

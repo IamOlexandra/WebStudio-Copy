@@ -25,15 +25,13 @@
     font-weight: 500;
 }
 .header-navigation {
+    @extend %flex;
     width: 933px;
-    display: flex;
-    justify-content: space-between;
     font-size: 14px;
 }
 .header-list {
-    display: flex;
+    @extend %flex;
     padding-left: 0;
-    justify-content: space-between;
 }
 .header-link:hover,
 .header-link:focus,

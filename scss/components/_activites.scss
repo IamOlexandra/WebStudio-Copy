@@ -4,12 +4,12 @@
 }
 .activites-title {
     margin-bottom: 50px;
+    @extend %title;
 }
 .activites-list {
+    @extend %flex;
     padding-left: 0;
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 .activites-title {
     font-size: 36px;
